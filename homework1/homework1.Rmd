@@ -1,11 +1,17 @@
 ---
-output: pdf_document
+Jake Watkins
 ---
+```{r}
+library(ggplot2)
+arbuthnot <- read.csv("~/Desktop/Geog 415/jwatki22/homework1/data/arbuthnot.csv")
+```
+
 
 # Question 1
 Changing graph scalings can alter slope and concentration of data points which can alter the appearance and mislead the viewer. The second plot is prefered due. With the the values extending to zero, the dip between 1640 to 1660 does not look like it is dropping off to nothing. 
 ```{r}
 ggplot(data=arbuthnot) + geom_line(aes(x=Year, y=Males))
+
 ```
 
 
