@@ -1,0 +1,44 @@
+---
+output: pdf_document
+---
+
+# Question 1
+Changing graph scalings can alter slope and concentration of data points which can alter the appearance and mislead the viewer. The second plot is prefered due. With the the values extending to zero, the dip between 1640 to 1660 does not look like it is dropping off to nothing. 
+```{r}
+ggplot(data=arbuthnot) + geom_line(aes(x=Year, y=Males))
+```
+
+
+# Question 2    
+This question is designed to give you some practice with ggplot as well as describing plots in words.
+```{r}
+ggplot(data=arbuthnot) + 
+    geom_point(aes(x=Females, y=Males))
+```
+
+Use ggplot to create a scatterplot that has Female christenings on the x-axis and Male christenings on the y-axis.  Draw a 45 degree line (using geom_abline) to show the line where Male and Female christenings are equal.  Use this figure to describe the relationship and distribution of Male and Female christenings.
+
+
+
+# Question 3
+
+A births-based sample would likely have, or at least provide for, a higher number of children to account for. However, there were probably numerous undocumented births, or just poor birth records in general, so this could also play into sample size. Infant mortality rate was quite high during these periods, especailly in cities which tended to be nesting grounds for disease. Many chidren were lost before they were of christening age.  
+
+Having what is believed to be data for all christenings is significant. These are no longer simply "samples" but instead a complete set of documented data, however not every child would have been christened, so this is still not a complete look at children living to christening age.  
+
+A christening based sample today would not be as reliable. Children were often christened as a means of saving their souls so if they did not survive to adulthood they would go to heaven.  
+
+
+# Question 4
+Sex ratio at brith is the ratio of infants born with male sex organs compared to infants born with female sex organs. Biologically, the sex ratio at birth should be close to even. 17th century England had natural distributions of male to female ratios. In the 21st century United States, sex cells can be manipulated or selected in order to give a family or parent a specific sex. Social values can also change sex ratios. The sex ratio in China is skewed with males out numbering females. This is due to the One Child Policy forcing couples to choose one child with males being prefered over females. This caused female embryos to be terminated or female infants to be killed. 
+
+
+# Question 5
+The purpose of this quetion is to give you a little practice using standard deviation.
+
+a. The average height of young women ages 18-24 is 64.5 in.  The distribution of heights is approximately normal (Gaussian) with a standardard deviation of $\sigma=2.5$.  Complete this sentence: Approximately 95% of women have a height greater than 59.5 in and less than 69.5 in.
+
+# Question 6
+
+Sigma is the sum of all values. X_i is any given value and is subtracted from xbar which is the sample mean. These values are squared as per the variance of the population. These values are all in place over N-1, which is the number of values minus 1. The sample variance measures the deviation squared from the mean. 
+
