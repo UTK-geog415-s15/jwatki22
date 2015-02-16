@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1422911152220.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BC5351F0",
+    "lastKnownWriteTime" : 176771986802,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "arbuthnot",
+        "contentUrl" : "content?title=arbuthnot&file=98a3b9a2c45146de8a84abd1d181f358.htm",
+        "displayedObservations" : 82,
+        "displayedVariables" : 8,
+        "totalObservations" : 82,
+        "variables" : 8
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
